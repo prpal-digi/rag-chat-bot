@@ -1,0 +1,23 @@
+# Core dependencies for LangChain with Gemini and FAISS
+langchain==0.2.17
+langchain-core==0.2.47
+langchain-community==0.2.10
+langchain-google-genai==1.0.2
+langchain-text-splitters==0.2.2
+# Gemini model support via Google Generative AI
+google-generativeai==0.5.4
+
+# PDF parsing
+pypdf==3.17.4
+
+# Embedding (you can switch to another)
+sentence-transformers==2.6.1
+
+# Streamlit UI
+streamlit==1.35.0
+
+# For environment variables
+python-dotenv==1.0.1
+
+# Pydantic v2 (required by latest LangChain)
+pydantic==2.6.4
